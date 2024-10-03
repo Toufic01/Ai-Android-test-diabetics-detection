@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/input_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="numberDecimal" />
+    <EditText
+        android:id="@+id/input_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sex"
+        android:inputType="numberDecimal" />
+
+
+    <EditText
+        android:id="@+id/input_high_chol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="High Chol"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/input_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="BMI"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/input_phys_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Physical Activity"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/input_alcohol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alcohol Consumption"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/input_phys_health"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Physical Health"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/input_high_bp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="High Blood Pressure"
+        android:inputType="numberDecimal" />
+
+    <!-- Button to predict -->
+    <Button
+        android:id="@+id/predict_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Predict" />
+
+    <!-- TextView to display prediction result -->
+    <TextView
+        android:id="@+id/prediction_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Prediction: "
+        android:textSize="18sp" />
+    
+    
+</LinearLayout>
